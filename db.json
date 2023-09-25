@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": "0fbec626-16c8-489f-b0fe-da2a788ecc16",
+      "name": "Comunidade DevBoost"
+    },
+    {
+      "id": "c2a832e6-4fbf-4dee-afc3-f69ab06a5d60",
+      "name": "Faculdade"
+    },
+    {
+      "id": "7c479e39-88be-434f-9560-f73463d3b917",
+      "name": "Instagram"
+    },
+    {
+      "id": "54efd2be-3ef8-4b35-b4cd-b2391836d55a",
+      "name": "Linkedin"
+    },
+    {
+      "id": "bca4d7a7-a438-4fc3-b184-0d3fc9c1312e",
+      "name": "Twitter"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "12d1e507-896b-4813-a12d-4f199fd14902",
+      "name": "Ana Clara",
+      "email": "ana.clara@email.com",
+      "phone": "11988888888",
+      "category_id": null,
+      "category_name": null
+    },
+    {
+      "id": "cb1206a2-0232-45b6-8d1e-684c9c48c475",
+      "name": "Beatriz Oliveira",
+      "email": "bia@email.com",
+      "phone": "11999999999",
+      "category_id": "bca4d7a7-a438-4fc3-b184-0d3fc9c1312e",
+      "category_name": "Twitter"
+    },
+    {
+      "id": "a71a8a67-ff08-4c28-b74f-c98c5a02eaf8",
+      "name": "Caio",
+      "email": "caio@gmai.com",
+      "phone": "123456789",
+      "category_id": "7c479e39-88be-434f-9560-f73463d3b917",
+      "category_name": "Instagram"
+    },
+    {
+      "id": "b2d31204-1c0c-4687-a9cd-a0092de4ad33",
+      "name": "João Victor ",
+      "email": "j2003.victir@gmail.com",
+      "phone": "11954907834",
+      "category_id": "54efd2be-3ef8-4b35-b4cd-b2391836d55a",
+      "category_name": "Linkedin"
+    },
+    {
+      "id": "1e64a1d6-183b-48fe-810c-1644d2b08c80",
+      "name": "Jonas Silva",
+      "email": "jonas.silva@gmail.com",
+      "phone": "11954907834",
+      "category_id": "0fbec626-16c8-489f-b0fe-da2a788ecc16",
+      "category_name": "Comunidade DevBoost"
+    }
+  ]
+}

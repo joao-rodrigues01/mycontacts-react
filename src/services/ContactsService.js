@@ -7,7 +7,10 @@ class ContactsService {
   }
 
   async listContacts(orderBy = 'asc') {
-    const contacts = await this.httpClient.get(`/contacts?orderBy=${orderBy}`);
+    // quando for utilizar a API use o de baixo:
+    // const contacts = await this.httpClient.get(`/contacts?orderBy=${orderBy}`);
+
+    const contacts = await this.httpClient.get(`/contacts?_sort=name&_order=${orderBy}`);
 
     return contacts.map(ContactMapper.toDomain);
   }
